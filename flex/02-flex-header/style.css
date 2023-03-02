@@ -2,6 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  justify-content: space-between;
 }
 
 .left-links {
@@ -27,6 +28,7 @@
   margin-right: auto;
   justify-content: center;
   align-self: center;
+  display: flex;
 }
 
 ul {
