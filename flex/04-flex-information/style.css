@@ -29,7 +29,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 40px;
+  gap: 52px;
 }
 
 .card {
@@ -41,13 +41,11 @@ img {
 .text {
   max-width: 200px;
   text-align: center;
+  flex-flow: row wrap;
 }
 
 .title {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
-}
-
-.text {
+  margin-bottom: 32px;
 }
