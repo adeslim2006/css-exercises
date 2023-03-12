@@ -66,8 +66,7 @@ ul.left-links {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
-  margin: 0 8px 0 16px;
+  padding: 0 16px 0 16px;
 }
 
 .footer {
