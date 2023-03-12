@@ -40,6 +40,10 @@ ul > li > a {
   color: black;
 }
 
+ul.left-links {
+  padding-inline-start: 0;
+}
+
 .content {
   flex: 1;
   display: flex;
@@ -48,15 +52,11 @@ ul > li > a {
   align-items: center;
 }
 
-.buttons * {
-  padding: 12px;
+.button {
+  padding: 8px 16px;
 }
 
-.left-links {
-  display: flex;
-  gap: 12px;
-}
-
+.left-links,
 .right-links {
   display: flex;
   gap: 12px;
@@ -66,7 +66,8 @@ ul > li > a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 8px;
+  margin: 0 8px 0 16px;
 }
 
 .footer {
