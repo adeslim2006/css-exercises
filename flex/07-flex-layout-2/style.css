@@ -23,7 +23,7 @@ body {
 }
 
 .sidebar {
-  width: 375px;
+  width: 300px;
   background: royalblue;
 }
 
@@ -34,6 +34,22 @@ body {
 }
 
 /* mywork */
+
+.header {
+  height: 54px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.sidebar {
+  width: 300px;
+  flex: 1 0 auto;
+  background: royalblue;
+}
 
 body {
   display: flex;
@@ -52,7 +68,7 @@ body {
 
 .container > .sidebar > ul > li {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   padding: 5px 10px 10px 0px;
   margin-left: -30px;
 }
@@ -95,6 +111,7 @@ a {
   align-items: stretch;
   margin: 16px 0px;
   gap: 15px;
+  padding: 32px;
 }
 
 @media screen and (max-width: 540px) {
@@ -108,7 +125,9 @@ a {
   }
 
   .sidebar {
-    min-width: auto;
+    width: 300px;
+    flex: 1 0 auto;
+    padding: 16px;
     background: royalblue;
   }
 }
